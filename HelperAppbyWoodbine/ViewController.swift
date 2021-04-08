@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func myChartButtonOnTap(_ sender: Any) {
+    }
+    
+    @IBAction func JournalEntryonTap(_ sender: Any) {
+    }
+    @IBOutlet weak var myChart: UIButton!
+    @IBAction func journalOntap(_ sender: Any) {
+    }
+    
 }
 
